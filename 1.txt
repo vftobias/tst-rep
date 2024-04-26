@@ -1,5 +1,5 @@
 test file
-var1=1 
-var2=2
-var3=3
-var4=4
+var1=100
+var2=200
+var3=300
+var4=400
