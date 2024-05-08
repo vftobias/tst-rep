@@ -29,7 +29,7 @@ case $command  in
     Ваши Имя и фамилия: $fio 
     Дата заезда: $start 
     Дата отъезда: $end " 
-  rownumber=$(wc -l base.txt | awk '{print $1}';)
+    rownumber=$(wc -l base.txt | awk '{print $1}';)
     echo "№$rownumber $roomn $fio $start $end " >> base.txt
     echo -e "\n  Запись добавлена" ;;
  2)
